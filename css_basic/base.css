@@ -43,6 +43,15 @@ article, aside {
   border-radius: 5px;
 }
 
+.works_on_smartphone main {
+  flex-wrap: wrap; /* allows article and aside to stack */
+}
+
+.works_on_smartphone article, 
+.works_on_smartphone aside {
+  flex: 1 1 100%; /* full width on small screens */
+}
+
 footer a {
   color: #aad4ff;
   text-decoration: none;
