@@ -1,8 +1,35 @@
+/* Logo style */
+.logo {
+  font-size: 2.5rem; /* bigger size */
+  color: #2a9d8f;    /* nice teal/health-tech color */
+  padding-right: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  user-select: none;
+}
+
+/* Customize links in nav */
+nav a {
+  font-weight: 600;
+}
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
+}
+
+/* Header nav container to align logo and links */
+header nav ul {
+  align-items: center;
+}
+
+/* Style article content */
+article h2, article h1 {
+  color: #004080;
+  margin-bottom: 0.5rem;
 }
 
 main {
@@ -21,6 +48,17 @@ article {
 aside {
   flex: 1;
   overflow-y: auto;
+}
+
+/* Style aside placeholder */
+aside p {
+  font-style: italic;
+  color: #666;
+}
+
+/* Add subtle shadow to article and aside */
+article, aside {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 header, footer {
