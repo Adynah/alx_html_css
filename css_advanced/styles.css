@@ -1,0 +1,149 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #000;
+  color: white;
+}
+
+/* HEADER SECTION */
+header {
+  background-color: transparent;
+  padding: 1.875rem 5rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* HERO SECTION */
+main section:first-of-type {
+  background-image: url('./assets/images/Object.png'); /* Replace with actual image later */
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  overflow: hidden;
+  padding-top: 10.75rem;
+  padding-bottom: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 9.375rem;             
+  height: 1.875rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 3.125rem; 
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.875rem; 
+  transition: opacity 0.3s ease;
+}
+
+nav ul li a:hover {
+  opacity: 0.7;
+}
+
+/* "Get schooled" Title */
+main section:first-of-type h1 {
+  position: relative;
+   font-size: 5.9375rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 0.375rem;
+  width: 100%;
+}
+
+/* SMILES | GRIN | LAUGH */
+main section:first-of-type span {
+  display: inline-block;
+  margin: 0px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* REGISTER BUTTON */
+main section:first-of-type button {
+  background-color: #C271FF;
+  color: white;
+  font-weight: bold;
+  font-size: 9px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 18px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin-bottom: 120px;
+}
+
+main section:first-of-type button:hover {
+  background-color: #a353cc;
+}
+
+/* "Learn from the pros" */
+main section:first-of-type h2{
+  font-size: 25px;
+  font-weight: lighter;
+  margin-block: 40px;
+  margin-bottom: 45px;
+}
+
+.highlight {
+  font-size: inherit;
+  color: #a353cc;                          /* highlight color */
+  font-weight: bold;
+}
+
+/* Instructor Cards */
+.smile-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 120px;
+    padding: 20px;
+}
+
+/* Make images bigger */
+.smile-row img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;  /* makes the image circular */
+    margin-bottom: 10px;
+}
+
+/* Make paragraph text smaller */
+.smile-row p {
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+/* Optional: style for h3 */
+.smile-row h3 {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 6px 0 4px;
+}
