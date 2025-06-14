@@ -415,3 +415,51 @@ main section:first-of-type h2{
   text-wrap: 10;
   width: 370px;
 }
+
+footer {
+  background-color: #071629;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  margin-bottom: 20px;
+}
+
+footer .icon img {
+  width: 160px;
+  height: auto;
+  margin: 10px;
+}
+
+footer .icon i {
+  font-size: 24px;
+  background-color: white;
+  color: #071629;         /* dark color for contrast */
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 8px;
+  transition: 0.3s ease;
+}
+
+.icon .facebook-icon {
+  border-radius: 50%;
+  width: 2.8rem;
+}
+
+footer p {
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.6;
+}
