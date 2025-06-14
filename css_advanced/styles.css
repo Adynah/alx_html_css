@@ -373,4 +373,45 @@ main section:first-of-type h2{
   margin-top: 30px;
   cursor: pointer;
 }
+.faq{
+  background-color: #ffff;
+  text-align: center;
+}
 
+.faq h2{
+  font-size: 32px;
+  height: 3.5rem;
+  font-weight: 200;
+  padding: 40px;
+  margin-bottom: 55px;
+  color: #000;
+}
+.faq-container{
+  display: flex;
+  color: #000;
+  justify-content: space-around;
+}
+
+.faq-row{
+  font-size: 12px;
+  margin-top: 16px;
+  margin-bottom: 90px;
+  line-height: 1.6;
+  width: 270px;
+}
+.faq-row h3{
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.faq-row p{
+  font-size: 14px;
+  color: #0000006c;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  text-align: left;
+  text-wrap: 10;
+  width: 370px;
+}
