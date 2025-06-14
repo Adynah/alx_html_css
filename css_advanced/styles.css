@@ -114,7 +114,7 @@ main section:first-of-type h2{
 
 .highlight {
   font-size: inherit;
-  color: #a353cc;                          /* highlight color */
+  color: #a353cc;
   font-weight: bold;
 }
 
@@ -131,7 +131,7 @@ main section:first-of-type h2{
 .smile-row img {
     width: 100px;
     height: 100px;
-    border-radius: 50%;  /* makes the image circular */
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 
@@ -141,13 +141,14 @@ main section:first-of-type h2{
     font-style: italic;
 }
 
-/* Optional: style for h3 */
+/* Style for h3 */
 .smile-row h3 {
     font-size: 10px;
     font-weight: bold;
     margin: 6px 0 4px;
 }
 
+/* Style for quote section */
 .quote-section {
     background-color: #C271FF;
     padding: 80px 30px;
@@ -197,7 +198,7 @@ main section:first-of-type h2{
     font-style: italic;
 }
 
-/* Section styling */
+/* Video list styling */
 .tutorials {
   padding: 60px 30px;
   background-color: #ffff;
@@ -305,5 +306,71 @@ main section:first-of-type h2{
 .smile-rating p {
   font-size: 14px;
   color: #C271FF;
+  line-height: 1.6;
   padding-right: 10px;
 }
+/* Menbership styling */
+.membership{
+  padding: 40px 20px;
+  background-color: #071629;
+  text-align: center;
+  font-family: 'Souces sans pro' sans-serif ;
+}
+
+.membership h2{
+  font-size: 32px;
+  font-weight: 200;
+  margin-bottom: 55px;
+  color: #fff;
+}
+
+.membership-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  max-width: 950px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.membership-row {
+  background-color: transparent;
+  width: 24%;
+  text-align: center;
+}
+
+.membership-row img {
+  align-items: center;
+}
+
+.membership-row h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 18px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.membership-row p {
+  font-size: 12px;
+  width: 200px;
+  font-weight: lighter;
+  margin-top: 16px;
+  margin-bottom: 90px;
+  padding: 0 0px 0 22px;
+  line-height: 1.6;
+}
+
+.register-here {
+  background-color: #C271FF;
+  color: white;
+  font-weight: bold;
+  font-size: 9px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
