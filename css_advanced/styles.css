@@ -147,3 +147,53 @@ main section:first-of-type h2{
     font-weight: bold;
     margin: 6px 0 4px;
 }
+
+.quote-section {
+    background-color: #C271FF;
+    padding: 80px 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-content {
+    display: flex;
+    align-items: center;
+    max-width: 650px;
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.quote-image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.quote-text {
+    flex: 1;
+    min-width: 400px;
+}
+
+.quote-text blockquote {
+    font-size: 13px;
+    font-weight: light;
+    line-height: 2;
+    quotes: "« " "»";
+    margin-bottom: 20px;
+}
+
+.quote-text h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.job-title {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
