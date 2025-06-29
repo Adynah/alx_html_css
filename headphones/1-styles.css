@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 12rem 0rem 12rem;
+  position: absolute;
+  width: 110%;
+  z-index: 2;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: red;
+}
+
+
+.hero {
+  position: relative;
+  background-image: url('./assets/images/headphones_hero_1.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20rem;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.hero-content h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 16rem;
+  margin-bottom: .5rem;
+}
+
+.subtitle {
+  font-size: .8rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #ff5f61;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 4rem;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #e04e50;
+}
+
+.description {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 580px;
+  width: 100%;
+  margin: 0 auto;
+  color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column; /* stack items vertically */
+    gap: 0.5rem;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+}
+
+.features {
+  background: white;
+  font-family: 'Holberton', sans-serif;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #000;
+}
+
+.features-description {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  color: #000;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.feature-item {
+  max-width: 200px;
+}
+
+.feature-item img {
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.feature-item h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffff;
+  margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  color: #000;
+}
