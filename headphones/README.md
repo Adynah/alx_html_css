@@ -5,11 +5,20 @@ This is a fully static, responsive landing page built with **HTML5 and CSS3 only
 
 # 📌 Features
 
-- ✅ Semantic HTML5 markup
+- ✅ Semantic and accessible HTML5 structure
 - ✅ Clean and modular CSS3
-- ✅ Mobile-responsive layout
-- ✅ Fully functional layout structure — no JavaScript needed
+- ✅ Fully responsive across screen sizes 
+- ✅ Pixel-perfect implementation based on Figma design  
+— ✅ No JavaScript needed
 - ✅ Optimized for customization and deployment
+
+
+# 🎯 Responsive Behavior
+
+- 📱 Mobile version activates at `max-width: 480px`
+- 🧭 Navigation and layout stack vertically on smaller screens
+- 🖼️ Images and sections scale to fit using `max-width` and `media queries`
+- 🪄 Max content width: `1000px`, centered with auto margin
 
 
 # 🔹 Header Navigation
@@ -18,7 +27,7 @@ This is a fully static, responsive landing page built with **HTML5 and CSS3 only
 
 # 🔹 Hero Section
 - Full-screen background image
-- Bold headline, subtitle, and CTA button
+- Bold headline, subtitle, and "Call to Action" button
 - Responsive text scaling and alignment
 
 # 🔹 Features Section
@@ -31,13 +40,24 @@ This is a fully static, responsive landing page built with **HTML5 and CSS3 only
 - Responsive flexbox layout
 
 # 🔹 Contact Section
-- Centered contact form with 3 fields and CTA button
+- Centered contact form with:
+  - Name
+  - Email
+  - Message
+  - CTA button
 - Fully styled inputs and buttons
 
 # 🔹 Footer
 - Logo and copyright
 - Social media icons (Facebook, Twitter, Instagram)
 - Dark theme footer with responsive layout
+
+# 🖱️ Interactions
+
+Element -------- Behaviour
+   |                 |
+Links   -------- `:hover` / `:active` color: `#FF6565`
+Buttons -------- `:hover` / `:active`: `opacity: 0.9`
 
 
 # 🧱 Built With
