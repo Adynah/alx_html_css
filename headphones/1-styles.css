@@ -124,6 +124,15 @@ body {
   margin-top: 8rem;
 }
 
+.features h2{
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #222;
+  letter-spacing: 0.05em;
+}
+
 .features-description {
   max-width: 560px;
   margin: 0 auto 2rem;

@@ -197,7 +197,6 @@ body {
   margin: 0 auto 2rem;
   font-size: 0.85rem;
   line-height: 1.8;
-  padding-top: 150px;
 }
 
 .pentagon-grid {
@@ -229,4 +228,142 @@ body {
   font-size: 0.7rem;
   font-weight: normal;
   margin-top: 0.5rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 2rem;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: #000;
+  letter-spacing: 0.05em;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  background: transparent;
+  border: none;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+  font-size: 1rem;
+  padding: 0.75rem 0;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:first-of-type {
+  margin-top: 2rem;
+}
+
+.contact-form input:nth-of-type(2) {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form textarea {
+  margin-bottom: 2rem;
+  resize: none;
+}
+
+
+.button {
+  display: inline-block;
+  background-color: #ff5f61;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  align-self: center;
+  background: #ff5f61;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #e94d51;
+}
+
+footer {
+  background-color: #06142E; /* Dark navy */
+  color: #ccc;               /* Light gray text */
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer section {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.icons img {
+  height: 40px;
+}
+
+.icons div {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.icons i {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #000;
+  background-color: #fff;
+  color: #06142E;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.icons i:hover {
+  background-color: #ff5f61;
+  color: white;
+}
+
+footer p {
+  font-size: 0.75rem;
+  color: #8a8a8a;
+  text-align: center;
+  margin: 0;
 }
